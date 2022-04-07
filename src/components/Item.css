@@ -1,21 +1,37 @@
 .item.card {
-    margin: 8px;
+  margin: 8px;
 }
 
 .item.card-content {
-    padding: 1rem;
+  padding: .5rem;
 }
 
 .item.card-image {
-    height: 100px;
-    display: flex;
+  height: 50px;
+  display: flex;
+  padding-top: 10px;
 }
 
 .skin-icon {
-    align-self: center;
-    padding: 2px;
+  align-self: center;
+  padding: 2px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-height:60px;
 }
 
-.item.title, .item.price {
-    text-align: center;
+.item.title,
+.item.price {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.favorite {
+  border: 1px #DBA632 solid;
+  box-shadow: inset 0px 0px 12px 3px #DBA632;
+}
+
+.discount {
+  color: red;
 }

@@ -1,5 +1,5 @@
 .accounts-container {
-    text-align: right;
+    text-align: left;
 }
 
 .accounts-container .panel-block {
@@ -22,7 +22,7 @@
         background-color: #363636;
     }
     .panel-block {
-        border-top: 1px solid #363636 !important;
+        border-top: none;
         border-bottom: 1px solid #363636 !important;
     }
 }

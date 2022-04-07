@@ -1,6 +1,7 @@
 .currency-icon {
     vertical-align: middle;
-    background-color: #364966;
+    background-color: #8e1212;
     border-radius: 50%;
-    width: 24px;
+    width: 12px;
+    display: inline;
 }

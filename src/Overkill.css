@@ -2,16 +2,13 @@ html, body, #root, div.window {
   height: 100%
 }
 
-html {
-  overflow-y: hidden !important;
-}
+
 
 .app.container {
   padding: 20px;
   max-width: 350px;
   flex-grow: 0;
   margin: auto;
-  overflow-y: hidden;
   position: relative;
   top: 22px;
   height: calc(100% - 22px);

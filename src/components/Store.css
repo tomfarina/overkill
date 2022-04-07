@@ -1,15 +1,44 @@
+.store{
+  font-size: 12px;
+}
+
 .store.top-text {
-    margin-bottom: 40px;
+  margin-bottom: 10px;
 }
 
 .store .is-centered {
-    margin: auto;
+  margin: auto;
+}
+
+.store .button {
+  font-size: small;
+  padding: 9px 2px;
+  height: 14px;
+  display: inline-flex;
+  align-items: center; 
+  background-color: transparent;
+  color: gray;
 }
 
 .float-right {
-    float: right;
+  float: right;
 }
 
 .vertical-align-children > * {
-    vertical-align: middle;
+  vertical-align: middle;
+}
+.vertical-align-children > span {
+  display: block;
+}
+
+.riot-id{
+  font-weight: bold;
+  color:plum;
+  letter-spacing: 1px;
+}
+
+.bonus-items {
+  border: 1px #0c0109 solid;
+  box-shadow: inset 0px 0px 12px 3px #0c0109;
+ padding: 10px;
 }

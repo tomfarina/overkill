@@ -84,6 +84,7 @@ class ValorantAPI {
       const result4 = await this.request(key, 'POST', this.url('userinfo'), authHeaders, {});
 
       const userID = result4.data.sub;
+      console.log(result4.data);
 
       const result5 = await this.request(key, 'PUT', ValorantAPI.url('playerId', region), authHeaders, [userID]);
 

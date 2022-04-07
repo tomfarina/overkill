@@ -23,7 +23,7 @@ function createWindow() {
   // Create the browser window.
   let options = {
     width: 800,
-    height: 535,
+    height: 600,
     webPreferences: {
       nodeIntegration: true,
       enableRemoteModule: true,
